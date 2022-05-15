@@ -1,0 +1,9 @@
+from random import shuffle
+
+def tirage() :
+
+ players = ['Rafou771','Kaizer','astra']
+ shuffle(players)
+ player_win = players[0]
+ print(players[0])
+ print("c'est {} qui a gagné".format(player_win))
