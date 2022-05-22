@@ -2,7 +2,7 @@ from random import shuffle
 
 def tirage() :
 
- players = ['Rafou771','Kaizer','astra']
+ players = ['player1','player2','player3']
  shuffle(players)
  player_win = players[0]
  print(players[0])
